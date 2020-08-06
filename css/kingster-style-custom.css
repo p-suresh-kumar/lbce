@@ -20,7 +20,7 @@ input, textarea{ border-bottom-width: 1px; }
 
 .gdlr-core-tab-item .gdlr-core-tab-item-title{ font-size: 17px; font-weight: 700; text-transform: none; letter-spacing: 0px; }
 .gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title{ border: 0px; margin-left: 0px; padding: 24px 40px 24px; }
-.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title.gdlr-core-active{ margin-bottom: 0px; padding: 24px 40px 24px; }
+.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title.gdlr-core-active{ margin-bottom: 0px; padding: 24px 40px 24px;}
 .gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title-wrap{ border: 0px; }
 .gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-content{ padding: 67px 59px 45px; background-repeat: no-repeat; }
 
