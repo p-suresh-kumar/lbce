@@ -911,6 +911,7 @@ input[type="reset"]:focus {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+
 }
 
 .kingster-right-menu-button {
@@ -922,6 +923,7 @@ input[type="reset"]:focus {
 	float: left;
 	margin-top: -8px;
 	margin-left: 30px;
+
 }
 
 .kingster-mobile-menu-right {
@@ -929,6 +931,9 @@ input[type="reset"]:focus {
 	right: 30px;
 	top: 50%;
 	margin-top: -9px;
+	float: top;
+
+
 }
 
 .kingster-mobile-menu-left {
@@ -956,6 +961,7 @@ input[type="reset"]:focus {
 	width: 32px;
 	height: 32px;
 	position: relative;
+	
 }
 
 .kingster-mobile-button-hamburger:before,
@@ -1004,6 +1010,7 @@ input[type="reset"]:focus {
 .kingster-mobile-button-hamburger.kingster-active span {
 	transition-delay: 0s;
 	opacity: 0;
+
 }
 
 .kingster-mobile-button-hamburger.kingster-active:after {
@@ -1020,10 +1027,13 @@ input[type="reset"]:focus {
 	line-height: 1.7;
 	text-align: left;
 	margin-bottom: 0px;
-}
+	padding-top: 0px;
+	}
 
 .kingster-navigation .sf-menu>li:first-child {
 	padding-left: 0px;
+
+	
 }
 
 .kingster-navigation .sf-menu>li:last-child {
@@ -1124,6 +1134,7 @@ input[type="reset"]:focus {
 	padding: 4px 12px;
 	display: block;
 
+
 }
 
 .kingster-navigation .kingster-navigation-slide-bar {
@@ -1133,6 +1144,7 @@ input[type="reset"]:focus {
 	display: none;
 	margin-top: -7px;
 	overflow: hidden;
+
 }
 
 .kingster-navigation .sf-menu a i {
@@ -1500,6 +1512,7 @@ body.admin-bar .kingster-overlay-menu-content {
 	border-radius: 3px;
 	border-width: 2px;
 	border-style: solid;
+
 }
 
 .kingster-main-menu-right-button.kingster-style-round {
@@ -1508,6 +1521,7 @@ body.admin-bar .kingster-overlay-menu-content {
 	border-radius: 30px;
 	-moz-border-radius: 30px;
 	-webkit-border-radius: 30px;
+
 }
 
 .kingster-main-menu-right-button.kingster-style-round-with-shadow {
@@ -1565,6 +1579,7 @@ body.admin-bar .kingster-overlay-menu-content {
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
+
 }
 
 .kingster-top-cart-content-wrap {
@@ -1610,6 +1625,7 @@ body.admin-bar .kingster-overlay-menu-content {
 	right: 0px;
 	bottom: -20px;
 	left: 0px;
+
 }
 
 .kingster-top-cart-hover-area+.kingster-top-cart-content-wrap {
@@ -1714,6 +1730,7 @@ body.admin-bar .kingster-overlay-menu-content {
 	position: absolute;
 	right: 0px;
 	line-height: 1.7;
+
 }
 
 .kingster-header-style-plain.kingster-style-center-menu .kingster-logo {
@@ -2103,6 +2120,7 @@ html.mm-opened body.admin-bar .kingster-header-side-nav {
 	-moz-transition: max-width 200ms;
 	-o-transition: max-width 200ms;
 	-webkit-transition: max-width 200ms;
+
 }
 
 .kingster-fixed-nav-logo {
@@ -6449,4 +6467,115 @@ ul#cat_nav li a:before{
     margin-bottom: 0px;
     font-size: 13px;
     line-height: 16px;
+}
+/*top-nav*/
+body {
+  box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+#main-navbar {
+  font-size: 14px;
+  background: #192f59;
+}
+
+#main-navbar ul {
+    background: #192f59;
+  margin: 0;
+  padding: 0;
+}
+
+#main-navbar li {
+  display: inline-block;
+  padding: 5px 100px;
+}
+
+#main-navbar li a {
+  text-decoration: none;
+  color: #96a2b8;
+}
+
+#main-navbar li a:hover {
+  padding-bottom: 3px;
+  color: #ffffff;
+
+}
+.top-nav{
+     position: absolute;
+    top:0px;
+    right:120px;
+    height:100%;
+    background: #3db166;
+    color: #ffffff;
+    padding: 8px 9px 10px 9px;
+    letter-spacing: 1px;
+     margin: 0 10px;
+
+}
+
+.top-nav-line{
+    background-color:#3db166;
+    padding: 2px; 
+}
+/*header nav*/
+* {box-sizing: border-box;}
+
+.header {
+  overflow: hidden;
+  background-color: #ffffffff;
+  padding: 8px 80px;
+}
+.header{
+    height: auto;
+    width:auto;
+}
+.header img{
+    height: 90px;
+    width: 900px;
+}
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+/* year of excellence */
+.year-excellence{
+    margin: 0px;
+    display: flex;
+    margin-right: 50px;
+}
+.ye-first{
+    font-size: 33px;
+    font-weight: 700;
+    color:#3db166;
+    line-height: 33px;
+    font-style: italic;
+    margin-right: 6px;
+}
+.ye-second{
+    line-height: 16px;
+    font-weight: 700;
+    color: #334878;
+}
+@media screen and (max-width: 782px) {
+	#main-navbar{
+		display: none;
+	}
+	.year-excellence{
+		display: none;
+	}
+	#logomain{
+		display: none;
+	}
 }
