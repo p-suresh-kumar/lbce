@@ -191,16 +191,18 @@ body.kingster-boxed .kingster-body-wrapper{ margin-top: 0px; margin-bottom: 0px;
 .kingster-header-side-nav.kingster-style-side{ padding-left: 70px; padding-right: 70px; }.kingster-header-side-nav.kingster-style-left .sf-vertical > li > ul.sub-menu{ padding-left: 70px; }.kingster-header-side-nav.kingster-style-right .sf-vertical > li > ul.sub-menu{ padding-right: 70px; } 
  .kingster-navigation .sf-vertical > li{ padding-top: 16px; padding-bottom: 16px; } 
 .kingster-header-style-bar .kingster-logo-right-text{ padding-top: 30px; } 
-.kingster-logo{ padding-top: 24px; } 
-.kingster-logo{ padding-bottom: 28px; } 
-.kingster-logo-inner{ max-width: 330px; } 
+.kingster-logo{ padding-top: 2px; } 
+.kingster-logo{ padding-bottom: 4px; } 
+.kingster-logo-inner{ max-width: 80%; }
+
 @media only screen and (max-width: 1260px){ .kingster-mobile-header .kingster-logo-inner{ max-width: 250px; } } 
 @media only screen and (max-width: 767px){ .kingster-mobile-header .kingster-logo-inner{ max-width: 180px; } } 
-.kingster-navigation{ padding-top: 37px; }.kingster-navigation-top{ top: 37px; } 
+.kingster-navigation{ padding-top: -10px; }.kingster-navigation-top{ top: -10px; } 
 .kingster-navigation .sf-menu > li > a{ padding-bottom: 34px; } 
-.kingster-navigation .kingster-main-menu{ padding-right: 0px; } 
+.kingster-navigation .kingster-main-menu{ padding-right: 165px;  } 
 .kingster-main-menu-right-wrap{ margin-top: 6px; } 
-.kingster-fixed-navigation.kingster-style-slide .kingster-logo-inner img{ max-height: none !important; }.kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo-inner, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo-inner{ max-width: 220px; } 
+.kingster-fixed-navigation.kingster-style-slide .kingster-logo-inner img{ max-height: none !important; }.kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo-inner, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo-inner{ max-width: 300px; }
+.kingster-fixed-navigation.kingster-style-slide .header-right p{ display: none; }.kingster-animate-fixed-navigation.kingster-header-style-plain .header-right, .kingster-animate-fixed-navigation.kingster-header-style-boxed .header-right{display: none;}
 .kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo{ padding-top: 23px; } 
 .kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo{ padding-bottom: 20px; } 
 .kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-navigation, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-navigation{ padding-top: 30px; }.kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-navigation-top, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-navigation-top{ top: 30px; } 

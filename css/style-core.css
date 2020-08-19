@@ -1028,6 +1028,7 @@ input[type="reset"]:focus {
 	text-align: left;
 	margin-bottom: 0px;
 	padding-top: 0px;
+
 	}
 
 .kingster-navigation .sf-menu>li:first-child {
@@ -6518,13 +6519,13 @@ padding:0;
     background-color:#3db166;
     padding: 2px; 
 }
-/*header nav*/
+/*header nav
 * {box-sizing: border-box;}
 
 .header {
   overflow: hidden;
   background-color: #ffffffff;
-  padding: 8px 100px;
+  padding: 8px 1px;
 }
 .header{
     height: auto;
@@ -6533,9 +6534,16 @@ padding:0;
 .header img{
     height: 90px;
     width: 900px;
-}
+}*/
 .header-right {
-  float: right;
+position: absolute;
+    top:5px;
+    right:-190px;
+    height:100%;
+  padding: 8px 3px 10px 9px;
+    letter-spacing: 1px;
+     margin: 0 5px;
+
 
 }
 
