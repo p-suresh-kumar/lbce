@@ -202,7 +202,7 @@ body.kingster-boxed .kingster-body-wrapper{ margin-top: 0px; margin-bottom: 0px;
 .kingster-navigation .sf-menu > li > a{ padding-bottom: 20px; } 
 .kingster-navigation .kingster-main-menu{ padding-right: 165px;  } 
 .kingster-main-menu-right-wrap{ margin-top: 6px; } 
-.kingster-fixed-navigation.kingster-style-slide .kingster-logo-inner img{ max-height: none !important; }.kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo-inner, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo-inner{ max-width: 225px; }
+.kingster-fixed-navigation.kingster-style-slide .kingster-logo-inner img{ max-height: none !important; }.kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo-inner, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo-inner{ max-width: 380px; }
 .kingster-fixed-navigation.kingster-style-slide .header-right p{ display: none; }.kingster-animate-fixed-navigation.kingster-header-style-plain .header-right, .kingster-animate-fixed-navigation.kingster-header-style-boxed .header-right{display: none;}
 .kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo{ padding-top: 23px; } 
 .kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo{ padding-bottom: 20px; } 
@@ -576,7 +576,8 @@ blockquote, q, pre{ background-color: #f5f5f5; }
 .gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title, .gdlr-core-tab-style1-vertical .gdlr-core-tab-item-title{ background-color: #f7f7f7; }@media only screen and (max-width: 767px){ .gdlr-core-tab-item-title-wrap{ background-color: #f7f7f7; } } 
 .gdlr-core-tab-item-content{ color: #8c8c8c; } 
 .gdlr-core-tab-item-content{ background-color: #ffffff; } 
-.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title.gdlr-core-active, .gdlr-core-tab-style1-vertical .gdlr-core-tab-item-title.gdlr-core-active{ background-color: #3db166; } 
+.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title.gdlr-core-active, .gdlr-core-tab-style1-vertical .gdlr-core-tab-item-title.gdlr-core-active{ background-color: #3db166; } /*news and events background color*/
+.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title:hover{background-color: #192f59;} /*news and events hover tab*/
 table tr th{ background-color: #3db166; } 
 table tr th, .kingster-body table tr th a, .kingster-body table tr th a:hover{ color: #ffffff; } 
 table tr:nth-child(odd){ background-color: #f9f9f9; } 
