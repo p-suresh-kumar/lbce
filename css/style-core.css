@@ -1623,7 +1623,7 @@ body.admin-bar .kingster-overlay-menu-content {
 .kingster-main-menu-cart .kingster-top-cart-hover-area {
 	position: absolute;
 	top: -20px;
-	right: 0px;
+	right:0px;
 	bottom: -20px;
 	left: 0px;
 
@@ -6517,7 +6517,9 @@ padding:0;
 
 .top-nav-line{
     background-color:#3db166;
-    padding: 2px; 
+    padding: 1.5px;
+    width: auto;
+
 }
 /*header nav
 * {box-sizing: border-box;}
@@ -6563,7 +6565,7 @@ position: absolute;
 .year-excellence{
     margin: 0px;
     display: flex;
-    margin-right: 50px;
+    margin-right: 65px;
 }
 .ye-first{
     font-size: 33px;
@@ -6571,7 +6573,7 @@ position: absolute;
     color:#3db166;
     line-height: 33px;
     font-style: italic;
-    margin-right: 6px;
+    margin-right: 4px;
 }
 .ye-second{
     line-height: 16px;
@@ -6579,6 +6581,39 @@ position: absolute;
     color: #334878;
 }
 @media screen and (max-width: 782px) {
+	#main-navbar{
+		display: none;
+	}
+	.year-excellence{
+		display: none;
+	}
+	#logomain{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1260px){
+	#main-navbar{
+		display: none;
+	}
+	.year-excellence{
+		display: none;
+	}
+	#logomain{
+		display: none;
+	}
+}
+@media only screen and (max-width: 999px){ 
+	#main-navbar{
+		display: none;
+	}
+	.year-excellence{
+		display: none;
+	}
+	#logomain{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1320px){
 	#main-navbar{
 		display: none;
 	}
