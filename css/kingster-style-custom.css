@@ -33,7 +33,8 @@ input, textarea{ border-bottom-width: 1px; }
     border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; }
 .gdlr-core-tab-item .gdlr-core-tab-item-wrap{ width: 1286px; overflow: hidden; }
 @media screen and (max-width: 782px) {
-.gdlr-core-tab-item .gdlr-core-tab-item-wrap{ width: 420px; overflow: hidden; }	
+.gdlr-core-tab-item .gdlr-core-tab-item-wrap{ width: 420px; overflow: hidden;padding-left: 2px; padding-right: 30px; }	
+#div_1dd7_79{padding: 50px 0px 30px 100px;}
 }
 .gdlr-core-tab-item .gdlr-core-tab-item-image-background{ display: block; width: 100%; height: 100%; background-size: cover;a background-position: center; }
 
@@ -139,10 +140,12 @@ ul.gdlr-core-custom-menu-widget.gdlr-core-menu-style-list li a:before{ margin-le
 }
 @media only screen and (max-width: 767px){
 	.gdlr-core-tab-item .gdlr-core-tab-item-title{ font-size: 13px; font-weight: 600; }
-	.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title-wrap{ padding-left: 15px; padding-right: 15px; }
-	body .gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title.gdlr-core-active{ background: transparent; }
+	.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title-wrap{ padding-left: 50px; padding-right: 50px; }
+	body .gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title.gdlr-core-active{ background: #3db166; }
 	.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title, 
 	.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title.gdlr-core-active{ padding: 15px 9px; }
+	.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-content{padding-left: 20px; padding-right: 100px;text-align:justify; }
+
 }
 
 
